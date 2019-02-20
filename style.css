@@ -1,0 +1,51 @@
+body {
+	color: white;
+	background-image: url(images/clouds1.jpg);
+	font-family: helvetica, arial, sans-serif;
+	height:auto;
+	max-width:100%;
+	background-size: cover;
+	font-size: 16px;
+	line-height: 1.3;
+}
+.dark-mode {
+	color: black;
+	background-image: url(images/darksky.jpg);
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+main {
+	padding: 1em;
+}
+p {
+	max-width: 40em;
+	margin: 0 0 1em 0;
+}
+h1 {
+	font-size: 3em;
+	margin: 20vh 0 0 0;
+	font-weight: 400;
+}
+.invert {
+    width: 1em;
+    height: 1em;
+    background: currentColor;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+@media (min-width: 40em) {
+  body {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 75em) {
+  body {
+    font-size: 2vw;
+  }
+}
+
